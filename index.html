@@ -101,12 +101,12 @@
                 } else if (selectedOption.value === 'NÃO') {
                     optionNao.parentElement.style.display = 'none';
                     optionEmVezEmQuando.parentElement.style.display = 'none';
-                    hiddenNao.textContent = 'Você selecionou NÃO. Tá mentindo porque em? Pode selecionar o SIM aí e enviar viu!.';
+                    hiddenNao.textContent = 'Você selecionou NÃO. Tá mentindo porque em? Pode selecionar o SIM aí e enviar viu.';
                     document.getElementById('hiddenOptions').style.display = 'block';
                 } else if (selectedOption.value === 'EM_VEZ_EM_QUANDO') {
                     optionNao.parentElement.style.display = 'none';
                     optionEmVezEmQuando.parentElement.style.display = 'none';
-                    hiddenEmVezEmQuando.textContent = 'Você selecionou "Em vez em quando eu tomo banho, tá certo isso?". Esta opção não pode ser alterada agora.';
+                    hiddenEmVezEmQuando.textContent = 'Você selecionou "Em vez em quando eu tomo banho, tá certo isso?". Esta opção não pode ser alterada agora a nao ser que você selecione o SIM.';
                     document.getElementById('hiddenOptions').style.display = 'block';
                 }
             }
@@ -123,7 +123,7 @@
                     resultDiv.textContent = 'SABIA eu também te amo, dona Vitória!';
                     photo.style.display = 'block';  // Mostrar a foto
                 } else {
-                    resultDiv.textContent = 'Obrigada por responder!';
+                    resultDiv.textContent = 'Obrigado por responder!';
                 }
             } else {
                 resultDiv.textContent = 'Por favor, selecione uma opção!';
